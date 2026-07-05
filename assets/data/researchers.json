@@ -1,0 +1,42 @@
+[
+  {
+    "id": "res-rahman",
+    "name": "A. Rahman",
+    "role": "Principal Investigator · Test & DFT",
+    "area": "Design For Testability, ATPG",
+    "bio": "Leads the lab's test and DFT research, focusing on scalable ATPG and scan compression for very large designs.",
+    "links": { "github": "https://github.com/noetherx-labs", "scholar": "#" }
+  },
+  {
+    "id": "res-iyer",
+    "name": "S. Iyer",
+    "role": "Research Lead · AI Hardware & EDA",
+    "area": "AI Hardware, EDA Automation, Machine Learning",
+    "bio": "Works at the intersection of machine learning and design automation, from accelerator dataflows to learned physical-design models.",
+    "links": { "github": "https://github.com/noetherx-labs", "scholar": "#" }
+  },
+  {
+    "id": "res-okonkwo",
+    "name": "M. Okonkwo",
+    "role": "Research Lead · Chiplet Systems",
+    "area": "Chiplet Systems, Packaging",
+    "bio": "Researches disaggregated architectures and the testability of heterogeneous multi-die packages.",
+    "links": { "github": "https://github.com/noetherx-labs", "scholar": "#" }
+  },
+  {
+    "id": "res-garcia",
+    "name": "L. García",
+    "role": "Research Lead · Semiconductor Methodology",
+    "area": "Low-Power Design, Open EDA",
+    "bio": "Builds reproducible, low-power design methodologies on open process design kits.",
+    "links": { "github": "https://github.com/noetherx-labs", "scholar": "#" }
+  },
+  {
+    "id": "res-verma",
+    "name": "N. Verma",
+    "role": "Research Lead · Hardware Security & Frontiers",
+    "area": "Hardware Security, DNA Computing",
+    "bio": "Investigates hardware trust and exploratory substrates including molecular storage.",
+    "links": { "github": "https://github.com/noetherx-labs", "scholar": "#" }
+  }
+]

@@ -1,0 +1,318 @@
+[
+  {
+    "id": "proj-scanforge",
+    "name": "ScanForge",
+    "tagline": "Learning-guided ATPG & scan compression toolkit",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "status": "Active",
+    "progress": 72,
+    "overview": "ScanForge is an open ATPG and scan-compression research platform. It pairs a classical PODEM engine with a learned decision-ordering model that steers backtracking, cutting pattern count while holding stuck-at and transition coverage.",
+    "objectives": [
+      "Reach >99% stuck-at coverage with 30% fewer patterns than baseline",
+      "Expose a scriptable Python API for reproducible experiments",
+      "Ship a diagnosis mode for silicon failure localization"
+    ],
+    "roadmap": [
+      {
+        "when": "Q4 2024",
+        "what": "PODEM core + coverage engine",
+        "note": "Released as v0.1"
+      },
+      {
+        "when": "Q2 2025",
+        "what": "Learned decision ordering",
+        "note": "Current focus"
+      },
+      {
+        "when": "Q4 2025",
+        "what": "Diagnosis & compression v2",
+        "note": "Planned"
+      }
+    ],
+    "repo": "https://github.com/noetherx-labs/scanforge",
+    "docs": "https://github.com/noetherx-labs/scanforge#readme",
+    "tags": [
+      "ATPG",
+      "DFT",
+      "Machine Learning"
+    ],
+    "related": {
+      "publications": [
+        "pub-2025-atpg-ml"
+      ],
+      "patents": [
+        "pat-2025-atpgml"
+      ]
+    }
+  },
+  {
+    "id": "proj-quantaris",
+    "name": "Quantaris",
+    "tagline": "Hybrid computing platform bridging molecular and digital systems",
+    "area": "emerging-computing",
+    "areaName": "Emerging Computing",
+    "status": "Active",
+    "progress": 35,
+    "overview": "Quantaris is NoETHER-X Labs' flagship hybrid-computing research platform, investigating the convergence of molecular computing and conventional digital systems. It aims to establish foundational technologies for the next generation of hybrid computational platforms.",
+    "objectives": [
+      "Domain-specific languages (DSLs) for molecular and hybrid computation",
+      "DNA computing simulation and molecular logic systems",
+      "Hybrid hardware architectures spanning analog, digital, and molecular substrates",
+      "Computational models and frameworks for future computing"
+    ],
+    "roadmap": [
+      {
+        "when": "Q2 2025",
+        "what": "DSL prototype + molecular logic simulator",
+        "note": "Current focus"
+      },
+      {
+        "when": "Q4 2025",
+        "what": "DNA computing simulation framework",
+        "note": "In progress"
+      },
+      {
+        "when": "Q2 2026",
+        "what": "Hybrid architecture reference model",
+        "note": "Planned"
+      }
+    ],
+    "repo": "https://github.com/noetherx-labs/quantaris",
+    "docs": "https://github.com/noetherx-labs/quantaris#readme",
+    "tags": [
+      "Hybrid Computing",
+      "DNA Computing",
+      "DSL",
+      "Molecular Logic"
+    ],
+    "related": {
+      "publications": [
+        "pub-2024-dna"
+      ],
+      "patents": []
+    }
+  },
+  {
+    "id": "proj-openflow",
+    "name": "OpenFlow-X",
+    "tagline": "Reproducible RTL-to-GDS flow for open silicon",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "status": "Active",
+    "progress": 58,
+    "overview": "OpenFlow-X orchestrates open-source EDA tools into a fully reproducible RTL-to-GDS flow with ML surrogates that predict congestion and timing before placement, reducing design iterations.",
+    "objectives": [
+      "One-command RTL-to-GDS on open PDKs",
+      "Congestion prediction within 8% of router ground truth",
+      "Chiplet-aware partitioning front-end"
+    ],
+    "roadmap": [
+      {
+        "when": "Q1 2025",
+        "what": "Flow orchestrator + open PDK support",
+        "note": "Done"
+      },
+      {
+        "when": "Q3 2025",
+        "what": "ML congestion surrogate",
+        "note": "In progress"
+      },
+      {
+        "when": "Q1 2026",
+        "what": "Chiplet partitioning",
+        "note": "Planned"
+      }
+    ],
+    "repo": "https://github.com/noetherx-labs/openflow-x",
+    "docs": "https://github.com/noetherx-labs/openflow-x#readme",
+    "tags": [
+      "EDA",
+      "Physical Design",
+      "Chiplet"
+    ],
+    "related": {
+      "publications": [
+        "pub-2024-eda",
+        "pub-2025-chiplet"
+      ],
+      "patents": [
+        "pat-2025-clockmesh"
+      ]
+    }
+  },
+  {
+    "id": "proj-sparsecore",
+    "name": "SparseCore",
+    "tagline": "Sparsity-aware inference accelerator",
+    "area": "ai",
+    "areaName": "Artificial Intelligence",
+    "status": "Active",
+    "progress": 45,
+    "overview": "SparseCore is a research accelerator with a reconfigurable dataflow and a sparse tensor engine that skips zero work at the datapath level, targeting efficient inference for structured-sparse models.",
+    "objectives": [
+      "2x energy efficiency over dense baseline on structured sparsity",
+      "Compiler that maps common models to the dataflow",
+      "Open RTL + cycle-accurate simulator"
+    ],
+    "roadmap": [
+      {
+        "when": "Q2 2025",
+        "what": "Dataflow + simulator",
+        "note": "Current"
+      },
+      {
+        "when": "Q4 2025",
+        "what": "Compiler front-end",
+        "note": "Planned"
+      },
+      {
+        "when": "Q2 2026",
+        "what": "FPGA prototype",
+        "note": "Planned"
+      }
+    ],
+    "repo": "https://github.com/noetherx-labs/sparsecore",
+    "docs": "https://github.com/noetherx-labs/sparsecore#readme",
+    "tags": [
+      "AI Hardware",
+      "Sparsity",
+      "Accelerator"
+    ],
+    "related": {
+      "publications": [
+        "pub-2024-sparse"
+      ],
+      "patents": [
+        "pat-2025-sparsemap"
+      ]
+    }
+  },
+  {
+    "id": "proj-trustscan",
+    "name": "TrustScan",
+    "tagline": "Hardware Trojan detection over DFT infrastructure",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "status": "Incubating",
+    "progress": 30,
+    "overview": "TrustScan reuses existing scan and compression infrastructure to detect hardware Trojans through side-channel and structural signatures, adding trust verification without dedicated silicon overhead.",
+    "objectives": [
+      "Detect representative Trojan benchmarks via scan side-channels",
+      "Sub-1% area overhead on the target design",
+      "Integrate cleanly with ScanForge patterns"
+    ],
+    "roadmap": [
+      {
+        "when": "Q3 2025",
+        "what": "Threat model + benchmark suite",
+        "note": "Current"
+      },
+      {
+        "when": "Q1 2026",
+        "what": "Detection prototype",
+        "note": "Planned"
+      }
+    ],
+    "repo": "https://github.com/noetherx-labs/trustscan",
+    "docs": "https://github.com/noetherx-labs/trustscan#readme",
+    "tags": [
+      "Hardware Security",
+      "DFT",
+      "Trust"
+    ],
+    "related": {
+      "publications": [
+        "pub-2025-security"
+      ],
+      "patents": [
+        "pat-2025-trojan"
+      ]
+    }
+  },
+  {
+    "id": "proj-helixstore",
+    "name": "HelixStore",
+    "tagline": "Error-resilient DNA storage encoding",
+    "area": "emerging-computing",
+    "areaName": "Emerging Computing",
+    "status": "Incubating",
+    "progress": 22,
+    "overview": "HelixStore explores encoding schemes for archival data storage in synthetic DNA, prioritizing resilience to synthesis and sequencing errors over raw density.",
+    "objectives": [
+      "Encode/decode pipeline with tunable redundancy",
+      "Recover from realistic insertion/deletion error rates",
+      "Open dataset of encoded test payloads"
+    ],
+    "roadmap": [
+      {
+        "when": "Q2 2025",
+        "what": "Encoding library",
+        "note": "Current"
+      },
+      {
+        "when": "Q1 2026",
+        "what": "Wet-lab collaboration",
+        "note": "Seeking partners"
+      }
+    ],
+    "repo": "https://github.com/noetherx-labs/helixstore",
+    "docs": "https://github.com/noetherx-labs/helixstore#readme",
+    "tags": [
+      "DNA Computing",
+      "Storage",
+      "Coding Theory"
+    ],
+    "related": {
+      "publications": [
+        "pub-2024-dna"
+      ],
+      "patents": []
+    }
+  },
+  {
+    "id": "proj-forgotten-code",
+    "name": "NoETHER-X: The Forgotten Code",
+    "tagline": "Turning science into immersive music, art, and education",
+    "area": "digital-media",
+    "areaName": "Digital Media Production & Innovation",
+    "status": "Active",
+    "progress": 40,
+    "overview": "The Forgotten Code transforms mathematics, artificial intelligence, semiconductor engineering, physics, and emerging technologies into immersive music, visual art, educational videos, and digital experiences that make complex scientific concepts engaging and accessible.",
+    "objectives": [
+      "Produce educational video series on core research themes",
+      "Compose and release original science-inspired music and visual art",
+      "Build interactive multimedia experiences for public engagement",
+      "Establish a consistent digital brand and visual identity for the lab"
+    ],
+    "roadmap": [
+      {
+        "when": "Q1 2025",
+        "what": "Visual identity + pilot episodes",
+        "note": "Released"
+      },
+      {
+        "when": "Q3 2025",
+        "what": "Music & motion-graphics series",
+        "note": "In progress"
+      },
+      {
+        "when": "Q1 2026",
+        "what": "Interactive web experiences",
+        "note": "Planned"
+      }
+    ],
+    "repo": "https://github.com/noetherx-labs/forgotten-code",
+    "docs": "https://github.com/noetherx-labs/forgotten-code#readme",
+    "tags": [
+      "Digital Media",
+      "Science Communication",
+      "Education",
+      "Creative Design"
+    ],
+    "related": {
+      "publications": [],
+      "patents": []
+    }
+  }
+]

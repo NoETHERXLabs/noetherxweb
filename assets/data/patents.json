@@ -1,0 +1,146 @@
+[
+  {
+    "id": "pat-2025-atpgml",
+    "title": "Machine-Learning-Guided Test Pattern Generation System",
+    "number": "US 12,301,554 B2",
+    "application": "US 18/214,772",
+    "status": "Granted",
+    "filed": "2023-08-04",
+    "granted": "2025-03-18",
+    "inventors": [
+      "A. Rahman",
+      "S. Iyer"
+    ],
+    "abstract": "A system and method for generating test patterns in which a learned model orders decision points during a structural search, reducing pattern count and runtime while preserving fault coverage guarantees.",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "country": "United States",
+    "pdf": "#",
+    "drawings": "#",
+    "related": {
+      "publication": "pub-2025-atpg-ml",
+      "project": "proj-scanforge",
+      "repo": "https://github.com/noetherx-labs/scanforge"
+    }
+  },
+  {
+    "id": "pat-2025-trojan",
+    "title": "Hardware Trojan Detection Using Existing Scan Infrastructure",
+    "number": "US 12,288,910 B2",
+    "application": "US 18/190,441",
+    "status": "Granted",
+    "filed": "2023-05-22",
+    "granted": "2025-01-28",
+    "inventors": [
+      "N. Verma",
+      "A. Rahman"
+    ],
+    "abstract": "A method for detecting malicious hardware modifications by extracting side-channel and structural signatures from pre-existing scan and compression circuitry, avoiding dedicated detection hardware.",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "country": "United States",
+    "pdf": "#",
+    "drawings": "#",
+    "related": {
+      "publication": "pub-2025-security",
+      "project": "proj-trustscan",
+      "repo": "https://github.com/noetherx-labs/trustscan"
+    }
+  },
+  {
+    "id": "pat-2025-sparsemap",
+    "title": "Reconfigurable Dataflow Mapping for Sparse Tensor Computation",
+    "number": "US 18/301,118",
+    "application": "US 18/301,118",
+    "status": "Pending",
+    "filed": "2024-02-11",
+    "granted": "",
+    "inventors": [
+      "S. Iyer",
+      "N. Verma"
+    ],
+    "abstract": "An accelerator datapath and mapping method that dynamically reconfigures to skip zero-valued operations under structured sparsity, improving energy efficiency for inference workloads.",
+    "area": "ai",
+    "areaName": "Artificial Intelligence",
+    "country": "United States",
+    "pdf": "#",
+    "drawings": "#",
+    "related": {
+      "publication": "pub-2024-sparse",
+      "project": "proj-sparsecore",
+      "repo": "https://github.com/noetherx-labs/sparsecore"
+    }
+  },
+  {
+    "id": "pat-2025-clockmesh",
+    "title": "Activity-Aware Clock Mesh Synthesis Method",
+    "number": "US 18/277,905",
+    "application": "US 18/277,905",
+    "status": "Pending",
+    "filed": "2024-01-09",
+    "granted": "",
+    "inventors": [
+      "L. García",
+      "S. Iyer"
+    ],
+    "abstract": "A clock-network synthesis method that shapes a clock mesh according to predicted switching activity to reduce dynamic power while meeting skew constraints.",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "country": "United States",
+    "pdf": "#",
+    "drawings": "#",
+    "related": {
+      "publication": "pub-2025-lowpower",
+      "project": "proj-openflow",
+      "repo": "https://github.com/noetherx-labs/openflow-x"
+    }
+  },
+  {
+    "id": "pat-2024-compress",
+    "title": "Hierarchical Scan Compression Architecture",
+    "number": "US 12,145,003 B2",
+    "application": "US 17/998,210",
+    "status": "Granted",
+    "filed": "2022-11-30",
+    "granted": "2024-09-10",
+    "inventors": [
+      "A. Rahman",
+      "L. García"
+    ],
+    "abstract": "A scan-compression architecture organized hierarchically so that test-data volume and application time remain bounded as gate count scales, while preserving diagnosis resolution.",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "country": "United States",
+    "pdf": "#",
+    "drawings": "#",
+    "related": {
+      "publication": "pub-2024-scan",
+      "project": "proj-scanforge",
+      "repo": "https://github.com/noetherx-labs/scanforge"
+    }
+  },
+  {
+    "id": "pat-2024-d2d",
+    "title": "Testable Die-to-Die Interconnect for Chiplet Packages",
+    "number": "US 12,098,771 B2",
+    "application": "US 17/955,640",
+    "status": "Granted",
+    "filed": "2022-09-15",
+    "granted": "2024-06-04",
+    "inventors": [
+      "M. Okonkwo",
+      "A. Rahman"
+    ],
+    "abstract": "A die-to-die interconnect with embedded test access that enables known-good-die verification of assembled multi-die packages without dedicated external test structures.",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "country": "United States",
+    "pdf": "#",
+    "drawings": "#",
+    "related": {
+      "publication": "pub-2025-chiplet",
+      "project": "proj-openflow",
+      "repo": "https://github.com/noetherx-labs/openflow-x"
+    }
+  }
+]

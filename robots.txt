@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noetherx-labs.github.io/noetherxweb/sitemap.xml

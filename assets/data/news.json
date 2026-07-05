@@ -1,0 +1,50 @@
+[
+  {
+    "id": "news-2025-06-itc",
+    "date": "2025-06-18",
+    "category": "Conference Acceptance",
+    "title": "ScanForge paper accepted at ITC 2025",
+    "summary": "Our work on learning-guided decision ordering for ATPG has been accepted to the IEEE International Test Conference. The camera-ready and reproducibility artifacts are now public.",
+    "link": "publication.html?id=pub-2025-atpg-ml"
+  },
+  {
+    "id": "news-2025-05-patent",
+    "date": "2025-03-18",
+    "category": "Patent Granted",
+    "title": "US patent granted for ML-guided test generation",
+    "summary": "The USPTO has granted our patent covering machine-learning-guided test pattern generation, the method at the core of the ScanForge project.",
+    "link": "patent.html?id=pat-2025-atpgml"
+  },
+  {
+    "id": "news-2025-04-openflow",
+    "date": "2025-04-02",
+    "category": "Release",
+    "title": "OpenFlow-X reaches its first reproducible tape-out flow",
+    "summary": "OpenFlow-X now runs a one-command RTL-to-GDS flow on open PDKs, with a congestion surrogate in active development. Try it on GitHub.",
+    "link": "project.html?id=proj-openflow"
+  },
+  {
+    "id": "news-2025-03-host",
+    "date": "2025-02-20",
+    "category": "Paper Published",
+    "title": "Trojan detection over scan infrastructure appears at HOST",
+    "summary": "TrustScan's core result — reusing scan structures for hardware Trojan detection — is now published, with benchmarks available for the community.",
+    "link": "publication.html?id=pub-2025-security"
+  },
+  {
+    "id": "news-2025-02-collab",
+    "date": "2025-01-15",
+    "category": "Collaboration",
+    "title": "New academic collaboration on chiplet testability",
+    "summary": "We are partnering with university groups to extend testability-aware chiplet partitioning to larger heterogeneous packages.",
+    "link": "research.html"
+  },
+  {
+    "id": "news-2024-12-bulletin",
+    "date": "2024-12-10",
+    "category": "Website Update",
+    "title": "Research Bulletin archive goes live",
+    "summary": "Every monthly bulletin is now archived in HTML, PDF, and ASCII formats, and is fully searchable from the bulletin page.",
+    "link": "bulletin.html"
+  }
+]

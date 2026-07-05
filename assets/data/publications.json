@@ -1,0 +1,227 @@
+[
+  {
+    "id": "pub-2025-atpg-ml",
+    "title": "Learning-Guided Decision Ordering for Scalable ATPG",
+    "authors": [
+      "A. Rahman",
+      "S. Iyer",
+      "M. Okonkwo"
+    ],
+    "venue": "IEEE International Test Conference (ITC)",
+    "type": "conference",
+    "year": 2025,
+    "abstract": "We present a learning-guided decision-ordering strategy for automatic test pattern generation that steers PODEM backtracking using a graph model of the netlist. On industrial-scale benchmarks the method reaches equivalent stuck-at and transition coverage with substantially fewer patterns and lower runtime, without modifying the underlying completeness guarantees of the search.",
+    "keywords": [
+      "ATPG",
+      "DFT",
+      "Machine Learning",
+      "Test Compression"
+    ],
+    "doi": "10.0000/itc.2025.00012",
+    "pdf": "#",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "bibtex": "@inproceedings{rahman2025atpg,\n  title     = {Learning-Guided Decision Ordering for Scalable ATPG},\n  author    = {Rahman, A. and Iyer, S. and Okonkwo, M.},\n  booktitle = {IEEE International Test Conference (ITC)},\n  year      = {2025}\n}",
+    "related": {
+      "patent": "pat-2025-atpgml",
+      "project": "proj-scanforge",
+      "repo": "https://github.com/noetherx-labs/scanforge"
+    }
+  },
+  {
+    "id": "pub-2025-chiplet",
+    "title": "Testability-Aware Partitioning for Heterogeneous Chiplet Systems",
+    "authors": [
+      "M. Okonkwo",
+      "L. García",
+      "A. Rahman"
+    ],
+    "venue": "Design Automation Conference (DAC)",
+    "type": "conference",
+    "year": 2025,
+    "abstract": "Disaggregating a system into chiplets improves yield and reuse but complicates test access. We formulate partitioning as a joint optimization of interconnect cost and known-good-die testability, and show that co-optimizing the two yields packages that are both cheaper to assemble and easier to diagnose.",
+    "keywords": [
+      "Chiplet",
+      "DFT",
+      "Packaging",
+      "Partitioning"
+    ],
+    "doi": "10.0000/dac.2025.00045",
+    "pdf": "#",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "bibtex": "@inproceedings{okonkwo2025chiplet,\n  title     = {Testability-Aware Partitioning for Heterogeneous Chiplet Systems},\n  author    = {Okonkwo, M. and Garc\\'ia, L. and Rahman, A.},\n  booktitle = {Design Automation Conference (DAC)},\n  year      = {2025}\n}",
+    "related": {
+      "patent": "pat-2024-d2d",
+      "project": "proj-openflow",
+      "repo": "https://github.com/noetherx-labs/openflow-x"
+    }
+  },
+  {
+    "id": "pub-2025-lowpower",
+    "title": "A Reproducible Low-Power RTL Methodology on Open PDKs",
+    "authors": [
+      "L. García",
+      "S. Iyer"
+    ],
+    "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+    "type": "journal",
+    "year": 2025,
+    "abstract": "We describe a low-power RTL methodology built entirely on open process design kits and open EDA, enabling independent reproduction of power results. The methodology combines clock-gating discovery, activity-aware synthesis, and a reporting harness that makes power numbers auditable end to end.",
+    "keywords": [
+      "Low Power",
+      "RTL",
+      "Open EDA",
+      "Reproducibility"
+    ],
+    "doi": "10.0000/todaes.2025.00078",
+    "pdf": "#",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "bibtex": "@article{garcia2025lowpower,\n  title   = {A Reproducible Low-Power RTL Methodology on Open PDKs},\n  author  = {Garc\\'ia, L. and Iyer, S.},\n  journal = {ACM TODAES},\n  year    = {2025}\n}",
+    "related": {
+      "patent": "pat-2025-clockmesh",
+      "project": "proj-openflow",
+      "repo": "https://github.com/noetherx-labs/openflow-x"
+    }
+  },
+  {
+    "id": "pub-2025-security",
+    "title": "Reusing Scan Infrastructure for Hardware Trojan Detection",
+    "authors": [
+      "N. Verma",
+      "A. Rahman",
+      "M. Okonkwo"
+    ],
+    "venue": "IEEE Symposium on Hardware Oriented Security and Trust (HOST)",
+    "type": "conference",
+    "year": 2025,
+    "abstract": "Dedicated Trojan-detection hardware is expensive. We show that existing scan and compression structures already carry enough side-channel and structural signal to flag a broad class of hardware Trojans, letting trust verification ride on infrastructure the design already pays for.",
+    "keywords": [
+      "Hardware Security",
+      "Trojan Detection",
+      "DFT",
+      "Scan"
+    ],
+    "doi": "10.0000/host.2025.00031",
+    "pdf": "#",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "bibtex": "@inproceedings{verma2025trojan,\n  title     = {Reusing Scan Infrastructure for Hardware Trojan Detection},\n  author    = {Verma, N. and Rahman, A. and Okonkwo, M.},\n  booktitle = {IEEE HOST},\n  year      = {2025}\n}",
+    "related": {
+      "patent": "pat-2025-trojan",
+      "project": "proj-trustscan",
+      "repo": "https://github.com/noetherx-labs/trustscan"
+    }
+  },
+  {
+    "id": "pub-2024-sparse",
+    "title": "SparseCore: A Reconfigurable Dataflow for Structured-Sparse Inference",
+    "authors": [
+      "S. Iyer",
+      "N. Verma"
+    ],
+    "venue": "International Symposium on Computer Architecture (ISCA)",
+    "type": "conference",
+    "year": 2024,
+    "abstract": "We introduce a reconfigurable dataflow accelerator whose datapath skips zero work under structured sparsity. A lightweight compiler maps common model shapes onto the fabric, delivering strong energy efficiency without sacrificing generality across workloads.",
+    "keywords": [
+      "AI Hardware",
+      "Sparsity",
+      "Accelerator",
+      "Dataflow"
+    ],
+    "doi": "10.0000/isca.2024.00099",
+    "pdf": "#",
+    "area": "ai",
+    "areaName": "Artificial Intelligence",
+    "bibtex": "@inproceedings{iyer2024sparsecore,\n  title     = {SparseCore: A Reconfigurable Dataflow for Structured-Sparse Inference},\n  author    = {Iyer, S. and Verma, N.},\n  booktitle = {ISCA},\n  year      = {2024}\n}",
+    "related": {
+      "patent": "pat-2025-sparsemap",
+      "project": "proj-sparsecore",
+      "repo": "https://github.com/noetherx-labs/sparsecore"
+    }
+  },
+  {
+    "id": "pub-2024-scan",
+    "title": "Hierarchical Scan Compression for Billion-Gate Designs",
+    "authors": [
+      "A. Rahman",
+      "L. García"
+    ],
+    "venue": "IEEE VLSI Test Symposium (VTS)",
+    "type": "conference",
+    "year": 2024,
+    "abstract": "As designs cross the billion-gate mark, flat scan compression stops scaling. We propose a hierarchical compression scheme that keeps test data volume and application time bounded while preserving diagnosis resolution across the hierarchy.",
+    "keywords": [
+      "DFT",
+      "Scan Compression",
+      "Test Cost"
+    ],
+    "doi": "10.0000/vts.2024.00021",
+    "pdf": "#",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "bibtex": "@inproceedings{rahman2024scan,\n  title     = {Hierarchical Scan Compression for Billion-Gate Designs},\n  author    = {Rahman, A. and Garc\\'ia, L.},\n  booktitle = {IEEE VTS},\n  year      = {2024}\n}",
+    "related": {
+      "patent": "pat-2024-compress",
+      "project": "proj-scanforge",
+      "repo": "https://github.com/noetherx-labs/scanforge"
+    }
+  },
+  {
+    "id": "pub-2024-eda",
+    "title": "ML Congestion Prediction for Open-Source Physical Design",
+    "authors": [
+      "S. Iyer",
+      "M. Okonkwo"
+    ],
+    "venue": "International Conference on Computer-Aided Design (ICCAD)",
+    "type": "conference",
+    "year": 2024,
+    "abstract": "Routing congestion is expensive to discover late in the flow. We train a graph surrogate that predicts congestion hotspots from placement, letting an open-source flow re-partition before routing and cutting iteration count on representative designs.",
+    "keywords": [
+      "EDA",
+      "Physical Design",
+      "Machine Learning",
+      "Open EDA"
+    ],
+    "doi": "10.0000/iccad.2024.00064",
+    "pdf": "#",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "bibtex": "@inproceedings{iyer2024eda,\n  title     = {ML Congestion Prediction for Open-Source Physical Design},\n  author    = {Iyer, S. and Okonkwo, M.},\n  booktitle = {ICCAD},\n  year      = {2024}\n}",
+    "related": {
+      "patent": "",
+      "project": "proj-openflow",
+      "repo": "https://github.com/noetherx-labs/openflow-x"
+    }
+  },
+  {
+    "id": "pub-2024-dna",
+    "title": "Error-Resilient Encoding for Archival DNA Storage",
+    "authors": [
+      "N. Verma",
+      "L. García"
+    ],
+    "venue": "ACM Journal on Emerging Technologies in Computing (JETC)",
+    "type": "journal",
+    "year": 2024,
+    "abstract": "Synthesis and sequencing introduce insertions and deletions that classical block codes handle poorly. We propose an encoding that trades a modest density penalty for strong resilience to realistic indel error profiles, recovering payloads that baseline schemes lose.",
+    "keywords": [
+      "DNA Computing",
+      "Storage",
+      "Coding Theory"
+    ],
+    "doi": "10.0000/jetc.2024.00088",
+    "pdf": "#",
+    "area": "emerging-computing",
+    "areaName": "Emerging Computing",
+    "bibtex": "@article{verma2024dna,\n  title   = {Error-Resilient Encoding for Archival DNA Storage},\n  author  = {Verma, N. and Garc\\'ia, L.},\n  journal = {ACM JETC},\n  year    = {2024}\n}",
+    "related": {
+      "patent": "",
+      "project": "proj-helixstore",
+      "repo": "https://github.com/noetherx-labs/helixstore"
+    }
+  }
+]

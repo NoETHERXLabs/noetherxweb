@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ai",
+    "name": "Artificial Intelligence",
+    "icon": "brain",
+    "summary": "Developing intelligent systems that accelerate engineering, scientific discovery, and autonomous decision-making.",
+    "description": "We build AI systems that act as research collaborators — reasoning over scientific knowledge, automating engineering workflows, and assisting the design and verification of complex systems. Our work spans agentic architectures, large language models, and autonomous research agents applied to real engineering and scientific problems.",
+    "focus": [
+      "Agentic AI Systems",
+      "Large Language Models (LLMs)",
+      "Autonomous Research Agents",
+      "AI for Engineering Automation",
+      "Scientific Knowledge Systems",
+      "AI-Assisted Verification and Design",
+      "Intelligent Workflow Automation"
+    ],
+    "related": {
+      "projects": [
+        "proj-sparsecore"
+      ],
+      "publications": [
+        "pub-2024-sparse"
+      ],
+      "patents": [
+        "pat-2025-sparsemap"
+      ],
+      "repo": "https://github.com/noetherx-labs"
+    }
+  },
+  {
+    "id": "semiconductor",
+    "name": "Semiconductor Engineering",
+    "icon": "chip",
+    "summary": "Advancing next-generation semiconductor technologies through innovative engineering and automation.",
+    "description": "We study the full realization path of modern chips — from RTL intent through test and packaging — with an emphasis on testability, trust, and reproducibility. Our tooling is built on open PDKs and open EDA so the entire flow can be audited and reproduced end to end.",
+    "focus": [
+      "RTL-to-GDSII design methodologies",
+      "Design-for-Testability (DFT)",
+      "Physical Design and Implementation",
+      "Scan Architecture and ATPG",
+      "Hardware Security",
+      "Chiplet and Heterogeneous Integration",
+      "Power-Aware Test Methodologies",
+      "AI-Assisted Electronic Design Automation"
+    ],
+    "related": {
+      "projects": [
+        "proj-scanforge",
+        "proj-openflow",
+        "proj-trustscan"
+      ],
+      "publications": [
+        "pub-2025-atpg-ml",
+        "pub-2025-chiplet",
+        "pub-2025-lowpower",
+        "pub-2025-security",
+        "pub-2024-scan",
+        "pub-2024-eda"
+      ],
+      "patents": [
+        "pat-2025-atpgml",
+        "pat-2025-trojan",
+        "pat-2025-clockmesh",
+        "pat-2024-compress",
+        "pat-2024-d2d"
+      ],
+      "repo": "https://github.com/noetherx-labs"
+    }
+  },
+  {
+    "id": "emerging-computing",
+    "name": "Emerging Computing",
+    "icon": "merge",
+    "summary": "Exploring computational paradigms beyond conventional digital architectures.",
+    "description": "Where silicon runs out, we explore what comes next. Through the Quantaris platform and related efforts we investigate hybrid, molecular, and quantum-inspired computation — building simulators, languages, and reference architectures for substrates beyond the conventional digital stack.",
+    "focus": [
+      "Hybrid Computing Architectures",
+      "DNA Computing",
+      "Quantum-Inspired Computing",
+      "Neuromorphic Computing",
+      "Molecular Information Processing",
+      "Next-Generation Computational Models"
+    ],
+    "related": {
+      "projects": [
+        "proj-quantaris",
+        "proj-helixstore"
+      ],
+      "publications": [
+        "pub-2024-dna"
+      ],
+      "patents": [],
+      "repo": "https://github.com/noetherx-labs"
+    }
+  },
+  {
+    "id": "genomics",
+    "name": "Genomics & Computational Biology",
+    "icon": "helix",
+    "summary": "Applying artificial intelligence and computational methods to biological research.",
+    "description": "We apply machine learning and computational modeling to genomics and systems biology — from analyzing genomic data at scale to accelerating drug discovery and enabling precision medicine. This area connects our AI research directly to problems in the life sciences.",
+    "focus": [
+      "Computational Genomics",
+      "Bioinformatics",
+      "Precision Medicine",
+      "AI for Drug Discovery",
+      "Systems Biology",
+      "Genomic Data Analytics"
+    ],
+    "related": {
+      "projects": [],
+      "publications": [],
+      "patents": [],
+      "repo": "https://github.com/noetherx-labs"
+    }
+  },
+  {
+    "id": "structural-biology",
+    "name": "AlphaFold & Structural Biology",
+    "icon": "molecule",
+    "summary": "Investigating AI-driven approaches to protein structure prediction and molecular understanding.",
+    "description": "Building on the AlphaFold era of structural biology, we study AI-assisted molecular modeling and protein structure prediction, and how learned representations of biomolecules can guide protein engineering and computational biochemistry.",
+    "focus": [
+      "Protein Structure Prediction",
+      "Structural Biology",
+      "AI-Assisted Molecular Modeling",
+      "Protein Engineering",
+      "Biomolecular Research",
+      "Computational Biochemistry"
+    ],
+    "related": {
+      "projects": [],
+      "publications": [],
+      "patents": [],
+      "repo": "https://github.com/noetherx-labs"
+    }
+  },
+  {
+    "id": "digital-media",
+    "name": "Digital Media Production & Innovation",
+    "icon": "media",
+    "summary": "Communicating science through creative media, visual storytelling, and AI-assisted digital production.",
+    "description": "Research only matters if it can be shared. Through initiatives like The Forgotten Code we turn mathematics, AI, semiconductor engineering, and physics into music, visual art, educational video, and interactive experiences that make complex ideas engaging and accessible.",
+    "focus": [
+      "Digital Audio Engineering",
+      "Video Production & Post-Production",
+      "Scientific Storytelling",
+      "Motion Graphics & Visual Effects",
+      "AI-Generated Art & Creative Design",
+      "Educational Content Development",
+      "Digital Publishing",
+      "Interactive Multimedia Experiences",
+      "Digital Branding & Visual Identity"
+    ],
+    "related": {
+      "projects": [
+        "proj-forgotten-code"
+      ],
+      "publications": [],
+      "patents": [],
+      "repo": "https://github.com/noetherx-labs"
+    }
+  }
+]

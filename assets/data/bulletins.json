@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bul-2025-06",
+    "issue": "Vol. 2 · Issue 6",
+    "month": "June 2025",
+    "date": "2025-06-30",
+    "title": "Learning inside the test loop",
+    "summary": "This issue focuses on where machine learning genuinely helps in test: decision ordering in ATPG, congestion surrogates in physical design, and the reproducibility harness that keeps results honest.",
+    "categories": ["ATPG", "Machine Learning", "EDA"],
+    "html": "#",
+    "pdf": "#",
+    "ascii": "#"
+  },
+  {
+    "id": "bul-2025-05",
+    "issue": "Vol. 2 · Issue 5",
+    "month": "May 2025",
+    "date": "2025-05-31",
+    "title": "Chiplets, and how to test them",
+    "summary": "A deep dive into testability-aware partitioning, known-good-die verification, and why die-to-die test access changes the packaging calculus.",
+    "categories": ["Chiplet", "DFT", "Packaging"],
+    "html": "#",
+    "pdf": "#",
+    "ascii": "#"
+  },
+  {
+    "id": "bul-2025-04",
+    "issue": "Vol. 2 · Issue 4",
+    "month": "April 2025",
+    "date": "2025-04-30",
+    "title": "Trust you can scan for",
+    "summary": "Hardware security through infrastructure you already have: reusing scan and compression for Trojan detection, plus notes on side-channel resilience.",
+    "categories": ["Hardware Security", "DFT"],
+    "html": "#",
+    "pdf": "#",
+    "ascii": "#"
+  },
+  {
+    "id": "bul-2025-03",
+    "issue": "Vol. 2 · Issue 3",
+    "month": "March 2025",
+    "date": "2025-03-31",
+    "title": "Open silicon, reproducible results",
+    "summary": "Why we build on open PDKs and open EDA, and how OpenFlow-X makes a full RTL-to-GDS flow something anyone can rerun and audit.",
+    "categories": ["EDA", "Open Source", "Semiconductor"],
+    "html": "#",
+    "pdf": "#",
+    "ascii": "#"
+  },
+  {
+    "id": "bul-2025-02",
+    "issue": "Vol. 2 · Issue 2",
+    "month": "February 2025",
+    "date": "2025-02-28",
+    "title": "Sparsity all the way down",
+    "summary": "From structured-sparse models to a datapath that skips zero work — the SparseCore approach to efficient inference.",
+    "categories": ["AI Hardware", "Sparsity"],
+    "html": "#",
+    "pdf": "#",
+    "ascii": "#"
+  },
+  {
+    "id": "bul-2025-01",
+    "issue": "Vol. 2 · Issue 1",
+    "month": "January 2025",
+    "date": "2025-01-31",
+    "title": "Frontiers: DNA and hybrid substrates",
+    "summary": "A look at the lab's exploratory programs — molecular storage with HelixStore and hybrid analog/digital computing.",
+    "categories": ["DNA Computing", "Hybrid Computing"],
+    "html": "#",
+    "pdf": "#",
+    "ascii": "#"
+  }
+]

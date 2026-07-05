@@ -1,0 +1,57 @@
+[
+  {
+    "id": "lit-2016-fujitsu-dna",
+    "title": "Church-style high-density DNA data storage",
+    "authors": "Church, Gao, Kosuri",
+    "venue": "Science",
+    "year": 2016,
+    "topic": "DNA Computing",
+    "url": "https://doi.org/10.1126/science.1226355",
+    "note": "Foundational demonstration of encoding digital data in DNA; baseline density reference for HelixStore.",
+    "contributor": "@noetherx-labs"
+  },
+  {
+    "id": "lit-2019-openroad",
+    "title": "OpenROAD: Toward a Self-Driving, Open-Source Digital Layout Implementation",
+    "authors": "Ajayi et al.",
+    "venue": "GOMACTech",
+    "year": 2019,
+    "topic": "EDA Automation",
+    "url": "https://theopenroadproject.org",
+    "note": "Open RTL-to-GDS baseline that OpenFlow-X builds around.",
+    "contributor": "@noetherx-labs"
+  },
+  {
+    "id": "lit-2020-eyeriss",
+    "title": "Eyeriss v2: A Flexible Accelerator for Emerging DNNs",
+    "authors": "Chen, Yang, Emer, Sze",
+    "venue": "IEEE JETCAS",
+    "year": 2019,
+    "topic": "AI Hardware",
+    "url": "https://doi.org/10.1109/JETCAS.2019.2910232",
+    "note": "Reference dataflow accelerator; comparison point for SparseCore efficiency.",
+    "contributor": "@noetherx-labs"
+  },
+  {
+    "id": "lit-2018-trojan-survey",
+    "title": "Hardware Trojans: Lessons Learned after One Decade of Research",
+    "authors": "Xiao et al.",
+    "venue": "ACM TODAES",
+    "year": 2016,
+    "topic": "Hardware Security",
+    "url": "https://doi.org/10.1145/2906147",
+    "note": "Survey grounding the TrustScan threat model and benchmark selection.",
+    "contributor": "@noetherx-labs"
+  },
+  {
+    "id": "lit-2021-chiplet-ucie",
+    "title": "Universal Chiplet Interconnect Express (UCIe) specification",
+    "authors": "UCIe Consortium",
+    "venue": "Industry specification",
+    "year": 2022,
+    "topic": "Chiplet Systems",
+    "url": "https://www.uciexpress.org",
+    "note": "Die-to-die interconnect standard referenced in chiplet partitioning work.",
+    "contributor": "@noetherx-labs"
+  }
+]
