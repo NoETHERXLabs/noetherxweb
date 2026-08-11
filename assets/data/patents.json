@@ -16,7 +16,8 @@
   "country": "India",
   "pdf": "assets/patents/Patent.Grant_Certificate.pdf",
   "drawings": "#"
-},
+ }
+}, 
   {
     "id": "pat-2025-atpgml",
     "title": "Machine-Learning-Guided Test Pattern Generation System",
