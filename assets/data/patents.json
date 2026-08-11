@@ -1,22 +1,29 @@
 [
- {
-  "id": "pat-2024-532626",
+{
+  "id": "pat-532626",
   "title": "An apparatus holding 3D printed teeth simulating its internal anatomical root canal morphological characteristics",
   "number": "532626",
   "application": "202241030153",
   "status": "Granted",
   "filed": "2022-05-26",
   "granted": "2024-04-12",
+
   "inventors": [
     "Raji Viola Solomon",
     "Dr. Theogaraj Samraj"
   ],
+
   "patentee": "Raji Viola Solomon",
   "abstract": "An apparatus holding 3D printed teeth simulating its internal anatomical root canal morphological characteristics.",
-  "area": "semiconductor",
-  "areaName": "Semiconductor Engineering",
+  "area": "dental",
+  "areaName": "Dental Engineering",
   "country": "India",
   "pdf": "assets/data/pdf/3D.Patent.Grant_Certificate.pdf",
-  "drawings": "#"
- } 
+  "drawings": "#",
+  "related": {
+    "publication": "",
+    "project": "",
+    "repo": ""
+  }
+}
 ]
