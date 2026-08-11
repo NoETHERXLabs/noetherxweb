@@ -272,13 +272,13 @@
   },
   {
     "id": "proj-forgotten-code",
-    "name": "NoETHER-X: The Forgotten Code",
+    "name": "NoETHER-X",
     "tagline": "Turning science into immersive music, art, and education",
     "area": "digital-media",
     "areaName": "Digital Media Production & Innovation",
     "status": "Active",
     "progress": 40,
-    "overview": "The Forgotten Code transforms mathematics, artificial intelligence, semiconductor engineering, physics, and emerging technologies into immersive music, visual art, educational videos, and digital experiences that make complex scientific concepts engaging and accessible.",
+    "overview": "Transforms mathematics, artificial intelligence, semiconductor engineering, physics, and emerging technologies into immersive music, visual art, educational videos, and digital experiences that make complex scientific concepts engaging and accessible.",
     "objectives": [
       "Produce educational video series on core research themes",
       "Compose and release original science-inspired music and visual art",
