@@ -1,5 +1,23 @@
 [
   {
+  "id": "pat-532626",
+  "title": "An apparatus holding 3D printed teeth simulating its internal anatomical root canal morphological characteristics",
+  "number": "532626",
+  "application": "202241030153",
+  "status": "Granted",
+  "filed": "2022-05-26",
+  "granted": "2024-04-12",
+  "inventors": [
+    "Raji Viola Solomon",
+    "Dr. Theogaraj Samraj"
+  ],
+  "patentee": "Raji Viola Solomon",
+  "abstract": "An apparatus holding 3D printed teeth simulating its internal anatomical root canal morphological characteristics.",
+  "country": "India",
+  "pdf": "assets/patents/Patent.Grant_Certificate.pdf",
+  "drawings": "#"
+},
+  {
     "id": "pat-2025-atpgml",
     "title": "Machine-Learning-Guided Test Pattern Generation System",
     "number": "US 12,301,554 B2",
