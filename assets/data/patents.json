@@ -1,6 +1,6 @@
 [
   {
-  "id": "pat-532626",
+  "id": "pat-2025-532626",
   "title": "An apparatus holding 3D printed teeth simulating its internal anatomical root canal morphological characteristics",
   "number": "532626",
   "application": "202241030153",
@@ -16,8 +16,7 @@
   "country": "India",
   "pdf": "assets/patents/Patent.Grant_Certificate.pdf",
   "drawings": "#"
- }
-}, 
+ }, 
   {
     "id": "pat-2025-atpgml",
     "title": "Machine-Learning-Guided Test Pattern Generation System",
