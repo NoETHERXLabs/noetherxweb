@@ -6,7 +6,7 @@
   "title": "Quantum Digital Circuits and Quantum Random Number Generation",
   "summary": "NoETHER-X researchers developed an 8-qubit quantum random number generator producing 128-bit random sequences using Qiskit, with reversible circuits based on CNOT and Toffoli gates.",
   "link": "publication.html?id=pub-2026-quantum"
-}
+},
   
   {
     "id": "news-2025-06-itc",
