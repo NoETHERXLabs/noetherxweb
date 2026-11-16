@@ -1,227 +1,1163 @@
 [
   {
-    "id": "pub-2025-atpg-ml",
-    "title": "Learning-Guided Decision Ordering for Scalable ATPG",
-    "authors": [
-      "A. Rahman",
-      "S. Iyer",
-      "M. Okonkwo"
-    ],
-    "venue": "IEEE International Test Conference (ITC)",
-    "type": "conference",
-    "year": 2025,
-    "abstract": "We present a learning-guided decision-ordering strategy for automatic test pattern generation that steers PODEM backtracking using a graph model of the netlist. On industrial-scale benchmarks the method reaches equivalent stuck-at and transition coverage with substantially fewer patterns and lower runtime, without modifying the underlying completeness guarantees of the search.",
-    "keywords": [
-      "ATPG",
-      "DFT",
-      "Machine Learning",
-      "Test Compression"
-    ],
-    "doi": "10.0000/itc.2025.00012",
-    "pdf": "#",
-    "area": "semiconductor",
-    "areaName": "Semiconductor Engineering",
-    "bibtex": "@inproceedings{rahman2025atpg,\n  title     = {Learning-Guided Decision Ordering for Scalable ATPG},\n  author    = {Rahman, A. and Iyer, S. and Okonkwo, M.},\n  booktitle = {IEEE International Test Conference (ITC)},\n  year      = {2025}\n}",
-    "related": {
-      "patent": "pat-2025-atpgml",
-      "project": "proj-scanforge",
-      "repo": "https://github.com/noetherx-labs/scanforge"
-    }
-  },
-  {
-    "id": "pub-2025-chiplet",
-    "title": "Testability-Aware Partitioning for Heterogeneous Chiplet Systems",
-    "authors": [
-      "M. Okonkwo",
-      "L. García",
-      "A. Rahman"
-    ],
-    "venue": "Design Automation Conference (DAC)",
-    "type": "conference",
-    "year": 2025,
-    "abstract": "Disaggregating a system into chiplets improves yield and reuse but complicates test access. We formulate partitioning as a joint optimization of interconnect cost and known-good-die testability, and show that co-optimizing the two yields packages that are both cheaper to assemble and easier to diagnose.",
-    "keywords": [
-      "Chiplet",
-      "DFT",
-      "Packaging",
-      "Partitioning"
-    ],
-    "doi": "10.0000/dac.2025.00045",
-    "pdf": "#",
-    "area": "semiconductor",
-    "areaName": "Semiconductor Engineering",
-    "bibtex": "@inproceedings{okonkwo2025chiplet,\n  title     = {Testability-Aware Partitioning for Heterogeneous Chiplet Systems},\n  author    = {Okonkwo, M. and Garc\\'ia, L. and Rahman, A.},\n  booktitle = {Design Automation Conference (DAC)},\n  year      = {2025}\n}",
-    "related": {
-      "patent": "pat-2024-d2d",
-      "project": "proj-openflow",
-      "repo": "https://github.com/noetherx-labs/openflow-x"
-    }
-  },
-  {
-    "id": "pub-2025-lowpower",
-    "title": "A Reproducible Low-Power RTL Methodology on Open PDKs",
-    "authors": [
-      "L. García",
-      "S. Iyer"
-    ],
-    "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+    "id": "pub-raji-2003-01",
+    "title": "Recent Advances in Pulp Vitality Testing",
+    "authors": [],
+    "venue": "Endodontology",
     "type": "journal",
-    "year": 2025,
-    "abstract": "We describe a low-power RTL methodology built entirely on open process design kits and open EDA, enabling independent reproduction of power results. The methodology combines clock-gating discovery, activity-aware synthesis, and a reporting harness that makes power numbers auditable end to end.",
+    "year": 2003,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Samraj RV, Indira R,Srinivasan MR, Kumar A.Recent Advances In Pulp Vitality Testing.Endodontology.2003;15(1):14-9.",
     "keywords": [
-      "Low Power",
-      "RTL",
-      "Open EDA",
-      "Reproducibility"
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
     ],
-    "doi": "10.0000/todaes.2025.00078",
+    "doi": "",
     "pdf": "#",
-    "area": "semiconductor",
-    "areaName": "Semiconductor Engineering",
-    "bibtex": "@article{garcia2025lowpower,\n  title   = {A Reproducible Low-Power RTL Methodology on Open PDKs},\n  author  = {Garc\\'ia, L. and Iyer, S.},\n  journal = {ACM TODAES},\n  year    = {2025}\n}",
-    "related": {
-      "patent": "pat-2025-clockmesh",
-      "project": "proj-openflow",
-      "repo": "https://github.com/noetherx-labs/openflow-x"
-    }
-  },
-  {
-    "id": "pub-2025-security",
-    "title": "Reusing Scan Infrastructure for Hardware Trojan Detection",
-    "authors": [
-      "N. Verma",
-      "A. Rahman",
-      "M. Okonkwo"
-    ],
-    "venue": "IEEE Symposium on Hardware Oriented Security and Trust (HOST)",
-    "type": "conference",
-    "year": 2025,
-    "abstract": "Dedicated Trojan-detection hardware is expensive. We show that existing scan and compression structures already carry enough side-channel and structural signal to flag a broad class of hardware Trojans, letting trust verification ride on infrastructure the design already pays for.",
-    "keywords": [
-      "Hardware Security",
-      "Trojan Detection",
-      "DFT",
-      "Scan"
-    ],
-    "doi": "10.0000/host.2025.00031",
-    "pdf": "#",
-    "area": "semiconductor",
-    "areaName": "Semiconductor Engineering",
-    "bibtex": "@inproceedings{verma2025trojan,\n  title     = {Reusing Scan Infrastructure for Hardware Trojan Detection},\n  author    = {Verma, N. and Rahman, A. and Okonkwo, M.},\n  booktitle = {IEEE HOST},\n  year      = {2025}\n}",
-    "related": {
-      "patent": "pat-2025-trojan",
-      "project": "proj-trustscan",
-      "repo": "https://github.com/noetherx-labs/trustscan"
-    }
-  },
-  {
-    "id": "pub-2024-sparse",
-    "title": "SparseCore: A Reconfigurable Dataflow for Structured-Sparse Inference",
-    "authors": [
-      "S. Iyer",
-      "N. Verma"
-    ],
-    "venue": "International Symposium on Computer Architecture (ISCA)",
-    "type": "conference",
-    "year": 2024,
-    "abstract": "We introduce a reconfigurable dataflow accelerator whose datapath skips zero work under structured sparsity. A lightweight compiler maps common model shapes onto the fabric, delivering strong energy efficiency without sacrificing generality across workloads.",
-    "keywords": [
-      "AI Hardware",
-      "Sparsity",
-      "Accelerator",
-      "Dataflow"
-    ],
-    "doi": "10.0000/isca.2024.00099",
-    "pdf": "#",
-    "area": "ai",
-    "areaName": "Artificial Intelligence",
-    "bibtex": "@inproceedings{iyer2024sparsecore,\n  title     = {SparseCore: A Reconfigurable Dataflow for Structured-Sparse Inference},\n  author    = {Iyer, S. and Verma, N.},\n  booktitle = {ISCA},\n  year      = {2024}\n}",
-    "related": {
-      "patent": "pat-2025-sparsemap",
-      "project": "proj-sparsecore",
-      "repo": "https://github.com/noetherx-labs/sparsecore"
-    }
-  },
-  {
-    "id": "pub-2024-scan",
-    "title": "Hierarchical Scan Compression for Billion-Gate Designs",
-    "authors": [
-      "A. Rahman",
-      "L. García"
-    ],
-    "venue": "IEEE VLSI Test Symposium (VTS)",
-    "type": "conference",
-    "year": 2024,
-    "abstract": "As designs cross the billion-gate mark, flat scan compression stops scaling. We propose a hierarchical compression scheme that keeps test data volume and application time bounded while preserving diagnosis resolution across the hierarchy.",
-    "keywords": [
-      "DFT",
-      "Scan Compression",
-      "Test Cost"
-    ],
-    "doi": "10.0000/vts.2024.00021",
-    "pdf": "#",
-    "area": "semiconductor",
-    "areaName": "Semiconductor Engineering",
-    "bibtex": "@inproceedings{rahman2024scan,\n  title     = {Hierarchical Scan Compression for Billion-Gate Designs},\n  author    = {Rahman, A. and Garc\\'ia, L.},\n  booktitle = {IEEE VTS},\n  year      = {2024}\n}",
-    "related": {
-      "patent": "pat-2024-compress",
-      "project": "proj-scanforge",
-      "repo": "https://github.com/noetherx-labs/scanforge"
-    }
-  },
-  {
-    "id": "pub-2024-eda",
-    "title": "ML Congestion Prediction for Open-Source Physical Design",
-    "authors": [
-      "S. Iyer",
-      "M. Okonkwo"
-    ],
-    "venue": "International Conference on Computer-Aided Design (ICCAD)",
-    "type": "conference",
-    "year": 2024,
-    "abstract": "Routing congestion is expensive to discover late in the flow. We train a graph surrogate that predicts congestion hotspots from placement, letting an open-source flow re-partition before routing and cutting iteration count on representative designs.",
-    "keywords": [
-      "EDA",
-      "Physical Design",
-      "Machine Learning",
-      "Open EDA"
-    ],
-    "doi": "10.0000/iccad.2024.00064",
-    "pdf": "#",
-    "area": "semiconductor",
-    "areaName": "Semiconductor Engineering",
-    "bibtex": "@inproceedings{iyer2024eda,\n  title     = {ML Congestion Prediction for Open-Source Physical Design},\n  author    = {Iyer, S. and Okonkwo, M.},\n  booktitle = {ICCAD},\n  year      = {2024}\n}",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji200301,\n  title = {Recent Advances in Pulp Vitality Testing},\n  journal = {Endodontology},\n  year = {2003}\n}",
     "related": {
       "patent": "",
-      "project": "proj-openflow",
-      "repo": "https://github.com/noetherx-labs/openflow-x"
+      "project": "",
+      "repo": ""
     }
   },
   {
-    "id": "pub-2024-dna",
-    "title": "Error-Resilient Encoding for Archival DNA Storage",
-    "authors": [
-      "N. Verma",
-      "L. García"
+    "id": "pub-raji-2008-02",
+    "title": "An In Vitro Spectrophotometric Analysis of Color Differences Between Composite Resins and Their Shade Guides",
+    "authors": [],
+    "venue": "Journal of Pierre Fauchard Academy",
+    "type": "journal",
+    "year": 2008,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Srinivasan MR, Samraj RV, Indira R.An Invitro Spectrophotometric Analysis Of Color Differences Between Composite Resins And Their Shade Guides. J Pierre Fauchard Acad. 2008;22(1):8-15",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
     ],
-    "venue": "ACM Journal on Emerging Technologies in Computing (JETC)",
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji200802,\n  title = {An In Vitro Spectrophotometric Analysis of Color Differences Between Composite Resins and Their Shade Guides},\n  journal = {Journal of Pierre Fauchard Academy},\n  year = {2008}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2011-03",
+    "title": "Evaluating the Effect of Three Different Desensitizing Agents in Short-Term Reduction of Dentin Hypersensitivity: An In Vivo Study",
+    "authors": [],
+    "venue": "Journal of Indian Dental Association",
+    "type": "journal",
+    "year": 2011,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Karunakar P, Solomon RV, Swetha B. Evaluating The Effect Of Three Different Desensitizing Agents In Short Term Reduction Of Dentin Hypersensitivity - An In Vivo Study.J Indian Dent Assoc.2011;5(9):962-5.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201103,\n  title = {Evaluating the Effect of Three Different Desensitizing Agents in Short-Term Reduction of Dentin Hypersensitivity: An In Vivo Study},\n  journal = {Journal of Indian Dental Association},\n  year = {2011}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2013-04",
+    "title": "Mineral Trioxide Aggregate in Management of Immature Teeth with Open Apices: Report of Clinical Cases",
+    "authors": [],
+    "venue": "Journal of Pierre Fauchard Academy",
+    "type": "journal",
+    "year": 2013,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Karunakar P, Madhavi N. Mineral Trioxide Aggregate In Management Of Immature Teeth With Open Apices – Report Of Clinical Cases – J Pierre Fauchard Acad.2013;27(1):2-8.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201304,\n  title = {Mineral Trioxide Aggregate in Management of Immature Teeth with Open Apices: Report of Clinical Cases},\n  journal = {Journal of Pierre Fauchard Academy},\n  year = {2013}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2013-05",
+    "title": "Bone Regeneration in a Periodontally Challenged Hopeless Tooth",
+    "authors": [],
+    "venue": "Journal of NTR University of Health Sciences",
+    "type": "journal",
+    "year": 2013,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Prasanna JS, Karunakar P, Rajashree D, Solomon RV. Bone Regeneration In A Periodontally Challenged Hopeless Tooth. J NTR Univ Health Sci.2013;2(4):296-301.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201305,\n  title = {Bone Regeneration in a Periodontally Challenged Hopeless Tooth},\n  journal = {Journal of NTR University of Health Sciences},\n  year = {2013}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2014-06",
+    "title": "A Comparative Study on the Effect of Different Instrumentation Systems on Micro Crack Propagation in Root Dentin",
+    "authors": [],
+    "venue": "Andhra Pradesh State Dental Journal",
+    "type": "journal",
+    "year": 2014,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Chowdary AV, Solomon RV, Rangareddy MS, Faizuddin U, Kumar BS.A Comparative Study On The Effect Of Different Instrumentation Systems On Micro Crack Propagation In Root Dentin. Andhra Pradesh State Dental Journal.2014;7(3):71-6.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201406,\n  title = {A Comparative Study on the Effect of Different Instrumentation Systems on Micro Crack Propagation in Root Dentin},\n  journal = {Andhra Pradesh State Dental Journal},\n  year = {2014}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2014-07",
+    "title": "Membrane-Assisted Mineral Trioxide Aggregate Apical Plug for Management of Traumatized Immature Anterior Teeth: Clinical Case Reports",
+    "authors": [],
+    "venue": "Journal of Oral Research and Review",
+    "type": "journal",
+    "year": 2014,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Karunakar P, Soumya SS, Siddhartha P. Membrane-Assisted Mineral Trioxide Aggregate Apical Plug For Management Of Traumatized Immature Anterior Teeth: Clinical Case Reports. J Oral Res Rev.2014;6(1):14-20.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201407,\n  title = {Membrane-Assisted Mineral Trioxide Aggregate Apical Plug for Management of Traumatized Immature Anterior Teeth: Clinical Case Reports},\n  journal = {Journal of Oral Research and Review},\n  year = {2014}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2014-08",
+    "title": "Conservative Cosmetic Treatment of Amelogenesis Imperfecta",
+    "authors": [],
+    "venue": "International Journal of Dental Clinics",
+    "type": "journal",
+    "year": 2014,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Bollineni S, Prashanthi P, Karunakar P, Solomon RV.Conservative Cosmetic Treatment Of Amelogenesis Imperfecta.IntJ Dent Clin.2014;6(2):32-4.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201408,\n  title = {Conservative Cosmetic Treatment of Amelogenesis Imperfecta},\n  journal = {International Journal of Dental Clinics},\n  year = {2014}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2014-09",
+    "title": "Emergency Management of a Dental Foreign Body Ingestion Using Rigid Esophagoscopy: A Clinical Case Report",
+    "authors": [],
+    "venue": "Journal of Pierre Fauchard Academy",
+    "type": "journal",
+    "year": 2014,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Rangareddy MS, Solomon RV, Reddy ISN. Emergency Management Of A Dental Foreign Body Ingestion Using Rigid Esophagoscopy A Clinical Case Report. J Pierre Fauchard Acad.2014;28(4):125-8.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201409,\n  title = {Emergency Management of a Dental Foreign Body Ingestion Using Rigid Esophagoscopy: A Clinical Case Report},\n  journal = {Journal of Pierre Fauchard Academy},\n  year = {2014}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2014-10",
+    "title": "Sealing Ability of a New Calcium Silicate-Based Material as a Dentin Substitute in Class II Sandwich Restorations: An In Vitro Study",
+    "authors": [],
+    "venue": "Journal of Oral Research and Review",
+    "type": "journal",
+    "year": 2014,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Karunakar P, Grandhala DS, Chaitanya B. Sealing Ability Of A New Calcium Silicate Based Material As A Dentin Substitute In Class II Sandwich Restorations: An In Vitro Study. J Oral Res Rev. 2014;6(1):1-8.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201410,\n  title = {Sealing Ability of a New Calcium Silicate-Based Material as a Dentin Substitute in Class II Sandwich Restorations: An In Vitro Study},\n  journal = {Journal of Oral Research and Review},\n  year = {2014}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2015-11",
+    "title": "An Ultra-Conservative Approach of Treating Coronal Tooth Fragment: Re-attachment Case Reports",
+    "authors": [],
+    "venue": "Oral Health and Dental Management",
+    "type": "journal",
+    "year": 2015,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Jayadev M, Karunakar P, Solomon RV, Shravani GS. An Ultra-Conservative Approach of Treating Coronal Tooth Fragment: Re-attachment Case Reports. Oral Health DM.2015;14(3):140-4.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201511,\n  title = {An Ultra-Conservative Approach of Treating Coronal Tooth Fragment: Re-attachment Case Reports},\n  journal = {Oral Health and Dental Management},\n  year = {2015}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2015-12",
+    "title": "Demystifying the Mesiobuccal Root of Maxillary First Molar Using Cone-Beam Computed Tomography",
+    "authors": [],
+    "venue": "Indian Journal of Dental Research",
+    "type": "journal",
+    "year": 2015,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Karunakar P, Solomon RV, Chaitanya B, Sanjana L, Komali G. Demystifying The Mesiobuccal Root Of Maxillary First Molar Using Cone-Beam Computed Tomography. Indian J Dent Res.2015;26(1):63-6.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201512,\n  title = {Demystifying the Mesiobuccal Root of Maxillary First Molar Using Cone-Beam Computed Tomography},\n  journal = {Indian Journal of Dental Research},\n  year = {2015}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2015-13",
+    "title": "Analysis of the Rate of Maturogenesis of a Traumatized Cvek’s Stage 3 Anterior Tooth Treated with Platelet-Rich Fibrin Using Three-Dimensional Cone-Beam Computed Tomography: An Original Case Report",
+    "authors": [],
+    "venue": "Indian Journal of Dental Research",
+    "type": "journal",
+    "year": 2015,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV ,Faizuddin U , Guniganti SS, Waghray S.Analysis Of The Rate Of Maturogenesis Of A Traumatized Cvek’s Stage 3 Anterior Tooth Treated With Platelet-Rich Fibrin As A Regenerative Tool Using Three-Dimensional Cone-Beam Computed Tomography: An Original Case Report. Indian J Dent Res.2015;26(1):90-5.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201513,\n  title = {Analysis of the Rate of Maturogenesis of a Traumatized Cvek’s Stage 3 Anterior Tooth Treated with Platelet-Rich Fibrin Using Three-Dimensional Cone-Beam Computed Tomography: An Original Case Report},\n  journal = {Indian Journal of Dental Research},\n  year = {2015}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2015-14",
+    "title": "Revitalization of Traumatized Immature Tooth with Platelet-Rich Fibrin",
+    "authors": [],
+    "venue": "Contemporary Clinical Dentistry",
+    "type": "journal",
+    "year": 2015,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Faizuddin U, Solomon RV, Mattapathi J, Guniganti SS.Revitalization Of Traumatized Immature Tooth With PlateletRich Fibrin. Contemp Clin Dent.2015;6(4):574-6.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201514,\n  title = {Revitalization of Traumatized Immature Tooth with Platelet-Rich Fibrin},\n  journal = {Contemporary Clinical Dentistry},\n  year = {2015}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2015-15",
+    "title": "Coronal Pulpotomy Technique Analysis as an Alternative to Pulpectomy for Preserving Tooth Vitality in the Context of Tissue Regeneration: A Correlated Clinical Study Across 4 Adult Permanent Molars",
+    "authors": [],
+    "venue": "Case Reports in Dentistry",
+    "type": "journal",
+    "year": 2015,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Faizuddin U, Karunakar P, Sarvani GD, Soumya SS. Coronal Pulpotomy Technique Analysis As An Alternative To Pulpectomy For Preserving The Tooth Vitality, In The Context Of Tissue Regeneration: A Correlated Clinical Study Across 4 Adult Permanent Molars.Case Reports in Dentistry.2015;2015:1-13.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201515,\n  title = {Coronal Pulpotomy Technique Analysis as an Alternative to Pulpectomy for Preserving Tooth Vitality in the Context of Tissue Regeneration: A Correlated Clinical Study Across 4 Adult Permanent Molars},\n  journal = {Case Reports in Dentistry},\n  year = {2015}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2016-16",
+    "title": "An In Vitro Evaluation of Microhardness of Different Direct Resin-Based Restorative Materials Using 10% Carbamide Peroxide Gel as a Bleaching Agent",
+    "authors": [],
+    "venue": "Journal of Oral Research and Review",
+    "type": "journal",
+    "year": 2016,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Chaitanya B, Jain A, Juvvadi Y, Babu R.An In Vitro Evaluation Of Microhardness Of Different Direct Resin-Based Restorative Materials On Using 10% Carbamide Peroxide Gel As A Bleaching Agent.J Oral Res Rev.2016;8(2):59-65.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201616,\n  title = {An In Vitro Evaluation of Microhardness of Different Direct Resin-Based Restorative Materials Using 10% Carbamide Peroxide Gel as a Bleaching Agent},\n  journal = {Journal of Oral Research and Review},\n  year = {2016}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2018-17",
+    "title": "Endodontic Management of Invasive Cervical Resorption: Report of Two Cases",
+    "authors": [],
+    "venue": "Journal of Conservative Dentistry",
+    "type": "journal",
+    "year": 2018,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Karunakar P, Soloman RV, Anusha B, Nagarjun M.Endodontic Management Of Invasive Cervical Resorption: Report Of Two Cases.J Conserv Dent.2018;21(5):578-81.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201817,\n  title = {Endodontic Management of Invasive Cervical Resorption: Report of Two Cases},\n  journal = {Journal of Conservative Dentistry},\n  year = {2018}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2018-18",
+    "title": "3D Printing: An Advancing Forefront in Imprinting the Inner Dimensions of Tooth with Precision",
+    "authors": [],
+    "venue": "Journal of Academy of Dental Education",
+    "type": "journal",
+    "year": 2018,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Reddy CS , Reddy AM, Priya SP, Solomon RV.3D Printing - An Advancing Forefront In Imprinting The Inner Dimensions Of Tooth With Precision. J Acad Dent Edu. 2018;3(2):19-24.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201818,\n  title = {3D Printing: An Advancing Forefront in Imprinting the Inner Dimensions of Tooth with Precision},\n  journal = {Journal of Academy of Dental Education},\n  year = {2018}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2019-19",
+    "title": "In Vitro Evaluation of Antimicrobial Efficacy of Nisin and Its Combination with Sodium Hypochlorite and Chlorhexidine on Enterococcus faecalis",
+    "authors": [],
+    "venue": "IOSR Journal of Dental and Medical Sciences",
+    "type": "journal",
+    "year": 2019,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Karunakar P, Solomon RV, Rangareddy MS, Kumar BS, Mounika G.Invitro Evaluation of Antimicrobial Efficacy of Nisin and its Combination with Sodium Hypochlorite and Chlorhexidine On Enterococcus faecalis. IOSR J Dent Med Sci.2019;18(6):79-82.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201919,\n  title = {In Vitro Evaluation of Antimicrobial Efficacy of Nisin and Its Combination with Sodium Hypochlorite and Chlorhexidine on Enterococcus faecalis},\n  journal = {IOSR Journal of Dental and Medical Sciences},\n  year = {2019}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2019-20",
+    "title": "Management of Non-Healing Periapical Lesions with Surgical Endodontic Therapy Assisted with 3D Additive Manufacturing Aids: Case Series",
+    "authors": [],
+    "venue": "EC Dental Science",
+    "type": "journal",
+    "year": 2019,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV ,Rangareddy MS ,Karunakar P, Priya PS, Sravan P. Management Of Non Healing Periapical Lesions With Surgical Endodontic Therapy Assisted With 3D Additive Manufacturing Aids : Case Series. EC Dental Science.2019;18(5):858-65.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201920,\n  title = {Management of Non-Healing Periapical Lesions with Surgical Endodontic Therapy Assisted with 3D Additive Manufacturing Aids: Case Series},\n  journal = {EC Dental Science},\n  year = {2019}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2019-21",
+    "title": "Recognition, Diagnosis and Endodontic Management of Mandibular Second Premolars with Variant Morphology: A Series of Case Reports",
+    "authors": [],
+    "venue": "Journal of Research and Advancement in Dentistry",
+    "type": "journal",
+    "year": 2019,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Jain A, Nagarjun M, Solomon RV ,Shravani GL.Recognition, Diagnosis And Endodontic Management Of Mandibular Second Premolars With Variant Morphology: A Series Of Case Reports.J Res Adv Dent.2019;9(2): 135-40.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201921,\n  title = {Recognition, Diagnosis and Endodontic Management of Mandibular Second Premolars with Variant Morphology: A Series of Case Reports},\n  journal = {Journal of Research and Advancement in Dentistry},\n  year = {2019}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2019-22",
+    "title": "Radix Entomolaris: A Clinically Challenging Series of Case Reports",
+    "authors": [],
+    "venue": "Journal of Research and Advancement in Dentistry",
+    "type": "journal",
+    "year": 2019,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Karunakar P, Solomon RV, Karteek BS, Zaidi SN. Radix Entomolaris: A Clinically Challenging Series Of Case Report.J Res Adv Dent.2019;10(1):351-6.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201922,\n  title = {Radix Entomolaris: A Clinically Challenging Series of Case Reports},\n  journal = {Journal of Research and Advancement in Dentistry},\n  year = {2019}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2019-23",
+    "title": "A Comparative Study of Efficacy of Intralesional Corticosteroids and Hyaluronidase Therapy With and Without Ultrasound Therapy in Patients With Oral Submucous Fibrosis",
+    "authors": [],
+    "venue": "Journal of Indian Academy of Oral Medicine and Radiology",
+    "type": "journal",
+    "year": 2019,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Guduru H, Komali G, Solomon RV, Ignatius AV, Yeladandi M, Madireddy N.AComparative Study Of Efficacy Of Intralesional Corticosteroids And Hyaluronidase Therapy With And Without Ultrasound Therapy In Patients With Oral Submucous Fibrosis.J Indian Acad Oral Med Radiol.2019;31(1):11-6.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji201923,\n  title = {A Comparative Study of Efficacy of Intralesional Corticosteroids and Hyaluronidase Therapy With and Without Ultrasound Therapy in Patients With Oral Submucous Fibrosis},\n  journal = {Journal of Indian Academy of Oral Medicine and Radiology},\n  year = {2019}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2020-24",
+    "title": "Management of Invasive Cervical Resorption Using MTA with Cone Beam Computed Tomography as a Diagnostic Aid: A Report of Two Cases",
+    "authors": [],
+    "venue": "Journal of Research and Advancement in Dentistry",
+    "type": "journal",
+    "year": 2020,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Karunakar P, Solomon RV, Kumar BS, Deepika R.Management Of Invasive Cervical Resorption Using MTA With Cone Beam Computed Tomography As A Diagnostic Aid: A Report Of Two Cases.J Res Adv Dent. 2020;10(2):347-54.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202024,\n  title = {Management of Invasive Cervical Resorption Using MTA with Cone Beam Computed Tomography as a Diagnostic Aid: A Report of Two Cases},\n  journal = {Journal of Research and Advancement in Dentistry},\n  year = {2020}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2020-25",
+    "title": "Influence of Sandwich, Snowplow and Injection Molding Modified Composite Lining Strategies on the Microleakage of Class II Proximal Box Cavities",
+    "authors": [],
+    "venue": "EC Dental Science",
+    "type": "journal",
+    "year": 2020,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV , Karunakar P,Priya PS , Wahed MA, Ranjana H. Influence Of Sandwich, Snowplow And Injection Molding Modified Composite Lining Strategies On The Microleakage Of Class II Proximal Box Cavities.EC Dental Science.2020;19(3):1-9.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202025,\n  title = {Influence of Sandwich, Snowplow and Injection Molding Modified Composite Lining Strategies on the Microleakage of Class II Proximal Box Cavities},\n  journal = {EC Dental Science},\n  year = {2020}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2020-26",
+    "title": "Effect of Different Chelating Agents on Calcium Ion Quantification and on Microhardness of Human Radicular Dentin: An In Vitro Study",
+    "authors": [],
+    "venue": "EC Dental Science",
+    "type": "journal",
+    "year": 2020,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Jain A , Karunakar P, Faizuddin U ,Solomon RV , Rasagna M , Priya PS.Effect Of Different Chelating Agents On Calcium Ion Quantification And On Microhardness Of Human Radicular Dentin-An In Vitro Study. EC Dental Science.2020;19(10):83-95.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202026,\n  title = {Effect of Different Chelating Agents on Calcium Ion Quantification and on Microhardness of Human Radicular Dentin: An In Vitro Study},\n  journal = {EC Dental Science},\n  year = {2020}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2020-27",
+    "title": "Application of Cone-Beam Computed Tomography in the Analysis and Management of Intricate Internal Anatomy of Hyper- and Mesotaurodontic Teeth",
+    "authors": [],
+    "venue": "Journal of Conservative Dentistry",
+    "type": "journal",
+    "year": 2020,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Parupalli K, Solomon RV, Karteek BS, Polasa S.Application Of Cone-Beam Computed Tomography In The Analysis And Management Of Intricate Internal Anatomy Of Hyper- And Mesotaurodontic Teeth.J Conserv Dent.2020;23:211-4.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202027,\n  title = {Application of Cone-Beam Computed Tomography in the Analysis and Management of Intricate Internal Anatomy of Hyper- and Mesotaurodontic Teeth},\n  journal = {Journal of Conservative Dentistry},\n  year = {2020}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2020-28",
+    "title": "Evaluation of Dentinal Tubule Occlusion Using Propolis and Chitosan Under the Scanning Electron Microscope: An In Vitro Study",
+    "authors": [],
+    "venue": "International Journal of Dental Science and Innovative Research",
+    "type": "journal",
+    "year": 2020,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Jain A, Karunakar P, Solomon RV , Faizuddin U, Sarika A, Deepika R.Evaluation Of Dentinal Tubule Occlusion Using Propolis And Chitosan Under The Scanning Electron Microscope: An In-Vitro Study.Int JDent Sci Innov Res.2020;3(5):470-77.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202028,\n  title = {Evaluation of Dentinal Tubule Occlusion Using Propolis and Chitosan Under the Scanning Electron Microscope: An In Vitro Study},\n  journal = {International Journal of Dental Science and Innovative Research},\n  year = {2020}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2021-29",
+    "title": "Influence of Rotary File System and Obturating Technique on the Apical Microleakage of Root Canal Treated Tooth",
+    "authors": [],
+    "venue": "International Journal of Dental Science and Innovative Research",
+    "type": "journal",
+    "year": 2021,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Jain A, Priya PS, Solomon RV, Karteek BS, Kumar BS, Wahed MA.Influence Of Rotary File System And Obturating Technique On The Apical Microleakage Of Root Canal Treated Tooth.Int J Dent Sci Innov Res. 2021;4(1):34-41.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202129,\n  title = {Influence of Rotary File System and Obturating Technique on the Apical Microleakage of Root Canal Treated Tooth},\n  journal = {International Journal of Dental Science and Innovative Research},\n  year = {2021}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2021-30",
+    "title": "Identification and Clinical Management of Extra Root in Mandibular First Molars: A Series of Case Reports",
+    "authors": [],
+    "venue": "Journal of Oral Research and Review",
+    "type": "journal",
+    "year": 2021,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Jain A, Solomon RV, Karunakar P, Rangareddy MS.Identification And Clinical Management Of Extra Root In Mandibular First Molars: A Series Of Case Reports.J Oral Res Rev.2018;10(2):83-6.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202130,\n  title = {Identification and Clinical Management of Extra Root in Mandibular First Molars: A Series of Case Reports},\n  journal = {Journal of Oral Research and Review},\n  year = {2021}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2021-31",
+    "title": "Anti-Bacterial Evaluation of Ibuprofen, Diclofenac, Triple Antibiotic Paste and Calcium Hydroxide as Intracanal Medicament Against Enterococcus faecalis in an Endodontic Model: An In Vitro Study",
+    "authors": [],
+    "venue": "International Journal of Scientific Research",
+    "type": "journal",
+    "year": 2021,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Rangareddy MS, Solomon RV, Faizuddin U, Karteek BS, Shravani K, Priyanka G.Anti-Bacterial Evaluation Of Ibuprofen, Diclofenac, Triple Antibiotic Paste And Calcium Hydroxide As Intracanal Medicament Against Enterococcus Faecalis In An Endodontic Model: An In Vitro Study.IntJ Sci Res.2021;10(5):3-5.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202131,\n  title = {Anti-Bacterial Evaluation of Ibuprofen, Diclofenac, Triple Antibiotic Paste and Calcium Hydroxide as Intracanal Medicament Against Enterococcus faecalis in an Endodontic Model: An In Vitro Study},\n  journal = {International Journal of Scientific Research},\n  year = {2021}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2021-32",
+    "title": "Disinfection Potential of Glycerol, Chitosan and Clove Oil Along with Triple Antibiotic Paste Against Root Canal Microorganisms",
+    "authors": [],
+    "venue": "International Journal of Dental Science and Innovative Research",
+    "type": "journal",
+    "year": 2021,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Priya PS ,Solomon RV ,Jain A, Talla D. Disinfection Potential Of Glycerol, Chitosan And Clove Oil Along With Triple Antibiotic Paste Against Root Canal Microorganisms.Int J Dent Sci Innov Res.2021;4(3):71-81.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202132,\n  title = {Disinfection Potential of Glycerol, Chitosan and Clove Oil Along with Triple Antibiotic Paste Against Root Canal Microorganisms},\n  journal = {International Journal of Dental Science and Innovative Research},\n  year = {2021}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2021-33",
+    "title": "An Update on Gutta Percha from Senescent to Recent: A Comprehensive Review",
+    "authors": [],
+    "venue": "International Journal of Dental Science and Innovative Research",
+    "type": "journal",
+    "year": 2021,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Jagadish, Priya PS,Solomon RV , Pallavi T, An Update On Gutta Percha From Senescent To Recent: A Comprehensive Review. Int J Dent Sci Innov Res.2021;4(4):470-81.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202133,\n  title = {An Update on Gutta Percha from Senescent to Recent: A Comprehensive Review},\n  journal = {International Journal of Dental Science and Innovative Research},\n  year = {2021}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2021-34",
+    "title": "Evaluation of Smear Layer Removal of Radicular Dentin in Comparison with Different Irrigation Devices: An In Vitro Study",
+    "authors": [],
+    "venue": "Journal of Conservative Dentistry",
+    "type": "journal",
+    "year": 2021,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Karunakar P, Solomon RV, Kumar BS, Mounika G.Evaluation Of Smear Layer Removal Of Radicular Dentin In Comparison With Different Irrigation Devices: An In Vitro Study.J Conserv Dent.2021;24(3):236-40.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202134,\n  title = {Evaluation of Smear Layer Removal of Radicular Dentin in Comparison with Different Irrigation Devices: An In Vitro Study},\n  journal = {Journal of Conservative Dentistry},\n  year = {2021}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2021-35",
+    "title": "Influence of Rotary File System and Obturating Technique on the Apical Microleakage of Root Canal Treated Tooth",
+    "authors": [],
+    "venue": "International Journal of Dental Science and Innovative Research",
+    "type": "journal",
+    "year": 2021,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Jain A, Priya PS, Solomon RV, Karteek BS, Kumar BS, Wahed MA.Influence Of Rotary File System And Obturating Technique On The Apical Microleakage Of Root Canal Treated Tooth.Int J Dent Sci Innov Res.2021;4(1):34-41.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202135,\n  title = {Influence of Rotary File System and Obturating Technique on the Apical Microleakage of Root Canal Treated Tooth},\n  journal = {International Journal of Dental Science and Innovative Research},\n  year = {2021}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2022-36",
+    "title": "A Multidisciplinary Practicable Approach for Rehabilitation of Grossly Mutilated Premolars: Original Case Series",
+    "authors": [],
+    "venue": "EC Dental Science",
+    "type": "journal",
+    "year": 2022,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV,Rangareddy MS,Priya PS, Waheed S.A Multidisciplinary Practicable Approach For Rehabilitation Of Grossly Mutilated Premolars - Original Case Series. EC Dental Science.2022;27(5):87-98.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202236,\n  title = {A Multidisciplinary Practicable Approach for Rehabilitation of Grossly Mutilated Premolars: Original Case Series},\n  journal = {EC Dental Science},\n  year = {2022}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2022-37",
+    "title": "Evidence-Based Analysis of Restoration in Endodontically Treated Teeth",
+    "authors": [],
+    "venue": "International Journal of Scientific Research",
+    "type": "journal",
+    "year": 2022,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV,Priya PS ,Dara P, Pallavi T. Evidence Based Analysis Of Restoration In Endodontically Treated Teeth.Int J Sci Res.2022;11(10):967-75.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202237,\n  title = {Evidence-Based Analysis of Restoration in Endodontically Treated Teeth},\n  journal = {International Journal of Scientific Research},\n  year = {2022}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2022-38",
+    "title": "A Deep Learning of 4D Printing in Dentistry: An Unprecedented Quantum Leap in Innovative Technologies",
+    "authors": [],
+    "venue": "Journal of Emerging Technologies and Innovative Research",
+    "type": "journal",
+    "year": 2022,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Priya SP, Varma KRS , Jagan PS.A Deep Learning Of 4d Printing In Dentistry: An Unprecedented Quantum Leap In Innovative Technologies.J Emerg Technol Innov Res.2022;9(12):605-10.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202238,\n  title = {A Deep Learning of 4D Printing in Dentistry: An Unprecedented Quantum Leap in Innovative Technologies},\n  journal = {Journal of Emerging Technologies and Innovative Research},\n  year = {2022}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2022-39",
+    "title": "Rehabilitation of the Breached Tooth Fragment: A Minimal Invasive Cosmetic Approach: An Original Case Series",
+    "authors": [],
+    "venue": "Journal of Medical Science and Diagnostic Research",
+    "type": "journal",
+    "year": 2022,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Reddy CLC, Rangareddy MS, Wahed MA, Lohitha P.Rehabilitation of the Breached Tooth Fragment– A Minimal Invasive Cosmetic Approach: An Original Case Series.JMed Sci Diag Res.2022;6(1): 46-52.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202239,\n  title = {Rehabilitation of the Breached Tooth Fragment: A Minimal Invasive Cosmetic Approach: An Original Case Series},\n  journal = {Journal of Medical Science and Diagnostic Research},\n  year = {2022}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2022-40",
+    "title": "An In Vitro Cross-Correlation Study of Apple Cider Vinegar and Morinda citrifolia as Effective Alternative Antimicrobial Herbal Irrigants Against Enterococcus faecalis",
+    "authors": [],
+    "venue": "World Journal of Pharmaceutical Research",
+    "type": "journal",
+    "year": 2022,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Reddy CLC, Pallavi T, Sathyanvesh M. An Invitro Cross-Correlation Study Of Apple Cider Vinegar And Morinda Citrifolia As Effective Alternative Antimicrobial Herbal Irrigants Against Enterococcus Faecalis. World J Pharm Res.2022;11(12):1626-39.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202240,\n  title = {An In Vitro Cross-Correlation Study of Apple Cider Vinegar and Morinda citrifolia as Effective Alternative Antimicrobial Herbal Irrigants Against Enterococcus faecalis},\n  journal = {World Journal of Pharmaceutical Research},\n  year = {2022}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2022-41",
+    "title": "Minimalistic Intervention of White Spot Lesions and Dental Fluorosis with Resin Infiltration Technique: A Report of Two Cases",
+    "authors": [],
+    "venue": "Journal of Clinical and Diagnostic Research",
+    "type": "journal",
+    "year": 2022,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Priya PS , Wahed MA, Gopishetty P, Sathyanvesh M.Minimalistic Intervention Of White Spot Lesions And Dental Fluorosis With Resin Infiltration Technique- A Report Of Two Cases. J Clin Diagn Res.2022;16(8):470-81.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202241,\n  title = {Minimalistic Intervention of White Spot Lesions and Dental Fluorosis with Resin Infiltration Technique: A Report of Two Cases},\n  journal = {Journal of Clinical and Diagnostic Research},\n  year = {2022}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2022-42",
+    "title": "Conservative Technique for Management of Gingival Recession: A Case Report",
+    "authors": [],
+    "venue": "International Journal of Dental Science and Innovative Research",
+    "type": "journal",
+    "year": 2022,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Rangareddy MS , Solomon RV , Karteek BS , Reddy CLC, Sriram K. Conservative Technique For Management Of Gingival Recession: A Case Report .Int J Dent Sci Innov Res.2022;5(1):271-6.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202242,\n  title = {Conservative Technique for Management of Gingival Recession: A Case Report},\n  journal = {International Journal of Dental Science and Innovative Research},\n  year = {2022}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2023-43",
+    "title": "An Insight into Oral Health Condition and Management Strategies in Children with Autistic Spectrum Disorder",
+    "authors": [],
+    "venue": "European Journal of Dental and Oral Health",
+    "type": "journal",
+    "year": 2023,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Priya PS , Aamuktha P, Asra N. An Insight To Oral Health Condition And Management Strategies In Children With Autistic Spectrum Disorder.European Journal Of Dental And Oral Health.2023;4(2):12-6.",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202343,\n  title = {An Insight into Oral Health Condition and Management Strategies in Children with Autistic Spectrum Disorder},\n  journal = {European Journal of Dental and Oral Health},\n  year = {2023}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2023-44",
+    "title": "Esthetic Management of Class II Cavity with CAD-CAM: A Case Report",
+    "authors": [],
+    "venue": "International Journal of Dental Science and Clinical Research",
+    "type": "journal",
+    "year": 2023,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Mounika G, Karunakar P, Solomon RV “Esthetic Management Of Class II Cavity With CAD-CAM - A Case Report.’’ Int J Dent Sci Clin Res.2023;5(3):83-91",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202344,\n  title = {Esthetic Management of Class II Cavity with CAD-CAM: A Case Report},\n  journal = {International Journal of Dental Science and Clinical Research},\n  year = {2023}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2024-45",
+    "title": "Comparative Evaluation of Effect of Intracanal Cryotherapy and Corticosteroid Solution on Post-Endodontic Pain in Single-Visit Root Canal Treatment",
+    "authors": [],
+    "venue": "Journal of Clinical and Experimental Dentistry",
     "type": "journal",
     "year": 2024,
-    "abstract": "Synthesis and sequencing introduce insertions and deletions that classical block codes handle poorly. We propose an encoding that trades a modest density penalty for strong resilience to realistic indel error profiles, recovering payloads that baseline schemes lose.",
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Solomon RV, Paneeru SP, Swetha C, Yatham R.  Comparative evaluation of effect of intracanal cryotherapy and corticosteroid solution on post endodontic pain in single visit root canal treatment. J Clin Exp Dent. 2024;16(3):250-6.",
     "keywords": [
-      "DNA Computing",
-      "Storage",
-      "Coding Theory"
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
     ],
-    "doi": "10.0000/jetc.2024.00088",
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202445,\n  title = {Comparative Evaluation of Effect of Intracanal Cryotherapy and Corticosteroid Solution on Post-Endodontic Pain in Single-Visit Root Canal Treatment},\n  journal = {Journal of Clinical and Experimental Dentistry},\n  year = {2024}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-raji-2024-46",
+    "title": "Evaluating the Pain at Site, Onset of Action, Duration and Anesthetic Efficacy of Conventional, Buffered Lidocaine with Intraoral Cryotherapy Application in Patients with Symptomatic Irreversible Pulpitis: A Clinical Study",
+    "authors": [],
+    "venue": "Journal of Conservative Dentistry and Endodontics",
+    "type": "journal",
+    "year": 2024,
+    "abstract": "Bibliographic citation transcribed from the supplied publication list: Karunakar P, Solomon RV ,Kumar BS, Reddy S Evaluating the pain at site, onset of action, duration and anesthetic efficacy of conventional, buffered lidocaine with intraoral cryotherapy application in patients with symptomatic irreversible pulpitis: A clinical study J Conserv Dent Endod 2024;27:1228-33",
+    "keywords": [
+      "Dentistry",
+      "Clinical Dentistry",
+      "Dental Research"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "dentistry",
+    "areaName": "Dentistry",
+    "bibtex": "@article{raji202446,\n  title = {Evaluating the Pain at Site, Onset of Action, Duration and Anesthetic Efficacy of Conventional, Buffered Lidocaine with Intraoral Cryotherapy Application in Patients with Symptomatic Irreversible Pulpitis: A Clinical Study},\n  journal = {Journal of Conservative Dentistry and Endodontics},\n  year = {2024}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-2026-quantum-rng",
+    "title": "Reversible Quantum Digital Circuits and Quantum Random Number Generation Using Qiskit",
+    "authors": [],
+    "venue": "IEEE International Conference on Distributed Computing Systems (ICDCS 2026)",
+    "type": "conference",
+    "year": 2026,
+    "abstract": "Developed an 8-qubit quantum random number generator producing 128-bit random sequences and built reversible circuits with CNOT and Toffoli gates.",
+    "keywords": [
+      "Quantum Computing",
+      "Qiskit",
+      "Quantum Random Number Generation",
+      "Reversible Logic",
+      "CNOT",
+      "Toffoli"
+    ],
+    "doi": "",
     "pdf": "#",
     "area": "emerging-computing",
     "areaName": "Emerging Computing",
-    "bibtex": "@article{verma2024dna,\n  title   = {Error-Resilient Encoding for Archival DNA Storage},\n  author  = {Verma, N. and Garc\\'ia, L.},\n  journal = {ACM JETC},\n  year    = {2024}\n}",
+    "bibtex": "@inproceedings{quantum2026qiskit,\n  title = {Reversible Quantum Digital Circuits and Quantum Random Number Generation Using Qiskit},\n  booktitle = {IEEE International Conference on Distributed Computing Systems (ICDCS)},\n  year = {2026}\n}",
     "related": {
       "patent": "",
-      "project": "proj-helixstore",
-      "repo": "https://github.com/noetherx-labs/helixstore"
+      "project": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "pub-2026-soc-root-cause",
+    "title": "Root-Cause Analysis of Timing Failures, Clock Switching Instability, and BootROM/OTP Interactions in Advanced SoC Verification Flows",
+    "authors": [],
+    "venue": "IEEE International Symposium on Electronic Design (ISED 2026)",
+    "type": "conference",
+    "year": 2026,
+    "abstract": "Developed a five-layer debug method that combines RTL verification, static timing analysis (STA), gate-level simulation (GLS) and physical design analysis. Status: Accepted.",
+    "keywords": [
+      "Semiconductor Engineering",
+      "SoC Verification",
+      "Timing Analysis",
+      "Clock Switching",
+      "BootROM",
+      "OTP",
+      "RTL Verification",
+      "Gate-Level Simulation",
+      "Physical Design"
+    ],
+    "doi": "",
+    "pdf": "#",
+    "area": "semiconductor",
+    "areaName": "Semiconductor Engineering",
+    "bibtex": "@inproceedings{soc2026rootcause,\n  title = {Root-Cause Analysis of Timing Failures, Clock Switching Instability, and BootROM/OTP Interactions in Advanced SoC Verification Flows},\n  booktitle = {IEEE ISED},\n  year = {2026},\n  note = {Accepted}\n}",
+    "related": {
+      "patent": "",
+      "project": "",
+      "repo": ""
     }
   }
 ]
